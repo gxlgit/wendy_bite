@@ -4,9 +4,18 @@ body {
   border: 4px solid grey;
 }
 
-header{
+hr {
+  align-content: center;
+  width: 85%;
+  color: grey;
+}
 
-  border-bottom: 2px solid grey;
+main{
+
+}
+
+img{
+  float: right;
 }
 h1{
   text-align: center;
@@ -40,3 +49,9 @@ li{
     color: white;
     text-decoration: none;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}/*https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_clearfix2*/
