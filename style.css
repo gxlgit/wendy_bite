@@ -1,12 +1,12 @@
 body {
   background-color: #505050;
   color: white;
-  border: 2px solid grey;
+  border: 4px solid grey;
 }
 
 header{
 
-  border-bottom: 1px solid grey;
+  border-bottom: 2px solid grey;
 }
 h1{
   text-align: center;
@@ -34,4 +34,9 @@ ul{
 
 li{
   display: inline-block;
+}
+
+.active {
+    color: white;
+    text-decoration: none;
 }
