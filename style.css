@@ -1,10 +1,12 @@
 body {
   background-color: #505050;
   color: white;
+  border: 2px solid grey;
 }
 
 header{
-  margin: auto;
+
+  border-bottom: 1px solid grey;
 }
 h1{
   text-align: center;
@@ -23,9 +25,13 @@ a{
   color: aquamarine;
 }
 
-footer{
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
-  margin: auto;
-
-
+li{
+  display: inline-block;
 }
